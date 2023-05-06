@@ -3,10 +3,16 @@
 <head>
     <title>Mi Blog</title>
     <link rel="stylesheet" type="text/css" href="#">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
     <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v16.0" nonce="JAEVonCH"></script>
 </head>
 <style>
+
+   *{
+    font-family: 'Instrument Serif', serif;
+     }
+
 body {
      background: black;
      color: white;
@@ -14,6 +20,15 @@ body {
     margin: 0;
     padding: 0;
 }
+
+h1.centrar {
+          text-align: center;
+         }
+
+
+nav.centro {
+      text-align: center;
+      }
 
 header {
     background-color: #333;
@@ -69,10 +84,10 @@ footer {
 </style>
 <body>
     <header>
-        <h1>Mi Blog</h1>
+        <h1 class="centrar">Mi Blog - Alberto R.</h1>
     </header>
     
-    <nav>
+    <nav class="centro">
         <ul>
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#pro">Artículos</a></li>
